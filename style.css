@@ -1,0 +1,89 @@
+/* Cores e fontes principais */
+body {
+  background-color: rgba(167, 172, 179, 0.685);
+  color: white;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho com título centralizado e destaque */
+header {
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 8px double black;
+  border-radius: 40px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  padding: 10px;
+}
+
+/* Seção central com a tabuada */
+section.conteudo {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px 10px 50px;
+  background-color: white;
+  border: 8px double black;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px black;
+  text-align: center;
+}
+
+/* Entrada do número */
+.input-numero {
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Botão */
+.btn-verificar {
+  font-size: 15px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-verificar:hover {
+  background-color: #333;
+}
+
+/* Resultado (select) */
+.seltab {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.seltab option {
+  padding: 5px 20px;
+}
+
+/* Parágrafos e textos */
+p {
+  font: normal 20pt Verdana, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+}
